@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.board.excludeFromSeoEx"><![CDATA[SeoEx exception]]></item>
+		<item name="wcf.acp.group.option.user.board.excludeFromSeoEx.description"><![CDATA[Members of this group will be excluded from the SeoEx plugin and can post without moderation even without the required post count.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.SEOEX_MIN_ENTRIES"><![CDATA[SeoEx]]></item>
+		<item name="wcf.acp.option.SEOEX_MIN_ENTRIES.description"><![CDATA[Define how many postings a user must have written to be able to post links without moderation.]]></item>
+	</category>
+	<category name="wbb.threadAdd">
+		<item name="wbb.threadAdd.seoexmoderation.redirect"><![CDATA[<strong>Because you added at least one link to your message</strong>, your post needs to be checked and approved by a moderator before it is made visible to members.]]></item>
+	</category>
+	<category name="wbb.postAdd">
+		<item name="wbb.postAdd.seoexmoderation.redirect"><![CDATA[<strong>Because you added at least one link to your message</strong>, your post needs to be checked and approved by a moderator before it is made visible to members.]]></item>
+	</category>
+</language>

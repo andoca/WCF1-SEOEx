@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.board.excludeFromSeoEx"><![CDATA[SeoEx Ausnahme]]></item>
+		<item name="wcf.acp.group.option.user.board.excludeFromSeoEx.description"><![CDATA[Mitglieder dieser Gruppe werden vom SeoEx Plugin nicht erfasst und können auch Links posten ohne die minimale Beitragsanzahl erreicht zu haben.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.SEOEX_MIN_ENTRIES"><![CDATA[SeoEx minimale Beitragsanzahl]]></item>
+		<item name="wcf.acp.option.SEOEX_MIN_ENTRIES.description"><![CDATA[Geben Sie an, wieviele Beiträge ein Benutzer mindestens gecshrieben haben muss, damit er Links posten kann ohne dass der Beitrag erst von einem Moderator freigeschaltet werden muss.]]></item>
+	</category>
+	<category name="wbb.threadAdd">
+		<item name="wbb.threadAdd.seoexmoderation.redirect"><![CDATA[Ihr Thema wurde erfolgreich gespeichert. <strong>Da Sie eine Verlinkung eingefügt haben und noch neu hier sind, wird Ihr Beitrag von einem Moderator geprüft.</strong> Falls keine Beanstandung vorliegt wird er für alle anderen Benutzer freigegeben.]]></item>
+	</category>
+	<category name="wbb.postAdd">
+		<item name="wbb.postAdd.seoexmoderation.redirect"><![CDATA[Ihre Antwort wurde erfolgreich gespeichert. <strong>Da Sie eine Verlinkung eingefügt haben und noch neu hier sind, wird Ihr Beitrag von einem Moderator geprüft.</strong> Falls keine Beanstandung vorliegt wird er für alle anderen Benutzer freigegeben.]]></item>
+	</category>
+</language>

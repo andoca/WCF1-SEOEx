@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/eventListeners.dtd">
+<data>	
+	<import>
+		<eventlistener>
+			<eventclassname>ThreadAddForm</eventclassname>
+			<eventname>save</eventname>	
+			<listenerclassfile>lib/system/event/listener/SeoExListener.class.php</listenerclassfile>
+		</eventlistener>
+		<eventlistener>
+			<eventclassname>PostAddForm</eventclassname>
+			<eventname>save</eventname>	
+			<listenerclassfile>lib/system/event/listener/SeoExListener.class.php</listenerclassfile>
+		</eventlistener>
+		<eventlistener>
+			<eventclassname>PostQuickAddForm</eventclassname>
+			<eventname>save</eventname>	
+			<listenerclassfile>lib/system/event/listener/SeoExListener.class.php</listenerclassfile>
+		</eventlistener>
+		<eventlistener>
+			<eventclassname>PostEditForm</eventclassname>
+			<eventname>save</eventname>	
+			<listenerclassfile>lib/system/event/listener/SeoExListener.class.php</listenerclassfile>
+		</eventlistener>
+		<eventlistener>
+			<eventclassname>ThreadAddForm</eventclassname>
+			<eventname>saved</eventname>	
+			<listenerclassfile>lib/system/event/listener/SeoExListener.class.php</listenerclassfile>
+		</eventlistener>
+		<eventlistener>
+			<eventclassname>PostAddForm</eventclassname>
+			<eventname>saved</eventname>	
+			<listenerclassfile>lib/system/event/listener/SeoExListener.class.php</listenerclassfile>
+		</eventlistener>
+		<eventlistener>
+			<eventclassname>PostQuickAddForm</eventclassname>
+			<eventname>saved</eventname>	
+			<listenerclassfile>lib/system/event/listener/SeoExListener.class.php</listenerclassfile>
+		</eventlistener>
+		<eventlistener>
+			<eventclassname>PostEditForm</eventclassname>
+			<eventname>saved</eventname>	
+			<listenerclassfile>lib/system/event/listener/SeoExListener.class.php</listenerclassfile>
+		</eventlistener>
+	</import>
+</data>

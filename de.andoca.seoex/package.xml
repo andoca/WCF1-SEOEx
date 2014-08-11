@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.andoca.seoex">
+	<packageinformation>
+		<packagename><![CDATA[SeoEx - Link spam pest patrol]]></packagename>
+		<packageDescription language="en"><![CDATA[Puts postings and threads that contain links from users with less than 10 postings into moderation.]]></packageDescription>
+		<packageDescription language="de"><![CDATA[Postings oder Threads von Benutzern mit weniger als 10 Einträgen die Links enthalten müssen erst moderiert werden.]]></packageDescription>
+		<packageurl><![CDATA[http://www.andoca.de]]></packageurl>
+		<version>1.0.1</version>
+		<plugin>com.woltlab.wbb</plugin>
+		<date>2011-09-20</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Andoca Haustier-WG UG (haftungsbeschränkt)</author>
+		<authorurl>http://www.andoca.de</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="3.1.0">com.woltlab.wbb</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<files>files.tar</files>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<options>options.xml</options>
+		<eventlistener>eventlistener.xml</eventlistener>
+	</instructions>
+	
+	<instructions type="update" fromversion="*">
+		<files>files.tar</files>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<options>options.xml</options>
+		<eventlistener>eventlistener.xml</eventlistener>
+	</instructions>
+</package>
